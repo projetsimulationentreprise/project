@@ -1,6 +1,7 @@
-#inscription{
-    background-color: black;
-    color:green;
-    font-weight: bold;
+#formulaire{
+ margin-left: 25%;   
 }
 
+#titre{
+    text-align: center;
+}
