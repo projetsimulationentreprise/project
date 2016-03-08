@@ -7,31 +7,47 @@
         <link href="../css/inscription.css" rel="stylesheet">
     </head>
     <body>
+        
+        <h3 id="titre">Formulaire d'inscription</h3>
+        <br>
 
-        <form action="" id="inscription">
-            <h3 class="txt">Inscription</h3>
-            <div>
-                <p class="txt">Nom</p>
-                <input type="text" class="input form-control" placeholder="Nom">
-                <br>
-                <p class="txt">Prenom</p>
-                <input type="text" class="input form-control" placeholder="Prenom">
-                <br>
-                <p class="txt">Adresse mail</p>
-                <input type="email" class="input form-control" placeholder="XXX@XX.XX">
-                <br>
-                <p class="txt">Adresse</p>
-                <input type="text" class="input form-control" placeholder="Adresse complete">
-                <br>
-                <p class="txt">Mot de passe</p>
-                <input type="password" class="input form-control" placeholder="Mot de passe">
-                <br>
-                <p class="txt">Numero de telephone</p>
-                <input type="text" class="input form-control" placeholder="06 XX XX XX XX">
-                <br>
-            </div>
-            <br>
-            <button id="Valider">Valider</button>
+        <form class="col-xs-6" id="formulaire">
+            <fieldset class="form-group">
+                <label for="Nom">Nom</label>
+                <input type="text" class="form-control" id="Nom" placeholder="Arsac">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="Prenom">Prenom</label>
+                <input type="text" class="form-control" id="Prenom" placeholder="Guillaume">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="NumeroTel">Numero de telephone</label>
+                <input type="text" class="form-control" id="NumeroTel" placeholder="06 60 06 60 06">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="Mail">Adresse mail</label>
+                <input type="email" class="form-control" id="Mail" placeholder="Adresse.mail@mail.adresse">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="Adresse">Adresse</label>
+                <input type="text" class="form-control" id="Adresse" placeholder="666 rue des enfers">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="MotDePasse">Mot de passe</label>
+                <input type="password" class="form-control" id="MotDePasse" placeholder="Motdepasse">
+            </fieldset>
+            
+            <fieldset class="form-group">
+                <label for="Description">Description</label>
+                <textarea class="form-control" id="Description" rows="3"></textarea>
+            </fieldset>
+            
+            <button type="submit" class="btn btn-primary">S'inscrire</button>
         </form>
 
         <script src="../css/js/bootstrap.min.js"></script>
